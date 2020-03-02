@@ -1,17 +1,16 @@
 <?php
 
-// Array je skup slicnih podataka, npr strings ili brojevi
-// Omogucuje vise stringova ili brojeva u jednoj varijbli
-// Prvi u nizu se numerira s 0 (nula)
+// Array is set of similar data, strings ili numbers are example
+// Array allows more data in one variable
+// Data is in array are ordered by numbers, and it starts with 0
 
-$names = array ('Mark', 'John', 'Peter');
+$names = array ('Mark', 'John', 'Peter') ;
 
-// Ukoliko zelimo dodati jos koju varijablu u array, to radimo ovako:
+// We can add more data into an array:
 
 $names[3] = 'July';
 
-//Ako zelimo isprintati sve stringove iz arraya, koristimo naredbu print_r
+// We can print all the data from an array
 
 print_r ($names) ;
 
-?>

@@ -1,6 +1,7 @@
 <?php
 
-// Ukoliko zelimo koristiti varijablu u naredbi echo nakon koje slijede jednostruki navodnixi ('xyz') koristimo tocku (.)
+// If we want to combine variable with string in echo command, we put string in apostrophes ('xyz') 
+// and use dot (concatenation operator) (. .)
 
 $name = "Ana" ;
 
@@ -8,23 +9,23 @@ echo "Hello Ana <br>" ;
 
 echo 'Hello ' . $name . '<br>' ;
 
-// Cilj: Ispisati "Hello Ana" jedno ispod drugoga
+// Aim: to print "Hello Ana" twice, one under other, and use word Ana as string in first case, and represented with variable in other
 
-// Ukoliko zelimo unutar koda unijeti link koristimo se na sljedeci nacim (html kod)
+// If we want our code to have internet link inside it, we can do it this way (html code)
 
 echo '<a href="http://www.google.com">Google</a> <br>' ;
 
-// ukoliko zelimo koristiti varijablu kao nositelj naziva za link, tada kod treba biti ovakav
+// If we want variable to represent our link, it can be done this way
 
 $google = "Google Link" ;
 
 echo '<a href="http://www.google.com">'.$google.'</a> <br>' ;
 
-// ESCAPE OPERATION - ukoliko zelimo da se nesto ispise zajedno sa navodnicima, koristimo ESCAPE OPERATOR (\)
+// ESCAPE OPERATION (\) - used if quotation marks are part of string
 
 echo "\"Hello World\" <br>" ;
 
-// U ovakvim slucajevima je korisno ;) ---> It's a beautiful day
+// Escape operator is useful in cases like this one --->  It's a beautiful day
 
 echo 'It\'s a beautiful day <br>' ;
 

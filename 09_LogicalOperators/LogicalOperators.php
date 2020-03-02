@@ -10,11 +10,9 @@
 $a = 10 ;
 $b = 20 ;
 
-if(($a==$b) xor ($a<=$b))
-{
+if (($a == $b) xor ($a <= $b)) {
     echo 'Equal';
 }
-else
-{
+else {
     echo 'Not Equal';
 }

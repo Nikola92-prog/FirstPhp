@@ -4,20 +4,18 @@ $Num1 = 10;
 
 $Num2 = 20;
 
-if($Num1==$Num2)
-{
-    echo 'Num1 i Num2 su jednaki <br>';   
+if ($Num1==$Num2) {
+    echo 'Num1 i Num2 are equal <br>' ;   
 }
 
-elseif($Num2<$Num1)
-{
-    echo "Num2 je manji od Num1";
+elseif ($Num2<$Num1) {
+    echo "Num2 is less than Num1" ;
 }
 
-else
-{
-    echo "Num1 i Num2 nisu jednaki <br>";
+else {
+    echo "Num1 i Num2 are not equal <br>" ;
 }
-// if ce ispisati string samo ukoliko je tvrdnja tocna, ukoliko nije, preskace se funkcija
-// Ukoliko tvrdnja pod "if" nije tocna, else ce ispisati svoju tvrdnju
-// elseif ce ukoliko tvrdnja pod if nije tocna, provjeriti svoju tvrdnju nakon if
+
+// "if" will print it's statement only if the statement is true
+// If statement under "if" is false, then the statement under "else" is printed
+// elseif will check other option if the statement included in "if" is false

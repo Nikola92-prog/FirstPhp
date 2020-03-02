@@ -1,6 +1,6 @@
 <?php
 
-// echo je naredba koja ispisuje ono sto se nalazi unutar navodnika
+// echo is command which prints string on webpage
 
 echo "Hello World" ;
 

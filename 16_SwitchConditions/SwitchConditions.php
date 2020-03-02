@@ -1,13 +1,12 @@
 <?php
 
 /*
-Ukoliko zelimo postaviti mogucnost da nam varijabla ima razlicite vrijednosti, koristimo naredbu switch 
-REZULTAT, na ekranu ce se ispisati string unesen u echo koji odgovara slucaju, u ovom slucaju "Number is 1"
-Ukoliko je unesen broj koji nije unutar caseova, echo koji ce se ispisati ispisuje se pomocu naredbe "default"
-NAPOMENA - U ovom primjeru je varijabla koja ima numericku vrijednost. switch vrijedi i za string varijable takodjer
+Use switch command if you want the value of variable can be different
+If variable value is not included in one of the cases, then the string inside default will be printed
+NOTE: switch can be also used with strings, not only with numbers
 */
 
-$number = 5;
+$number = 1;
 
 switch ($number)
 {

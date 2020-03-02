@@ -1,31 +1,32 @@
 <?php
 
-//Ukoliko su navodnici "", varijabla moze biti ukljucena, 
-//ukoliko su jednostruki navodnici (apostrofi) tada ce se printati tekst bez obzira na $
+//If used in quotation marks (""), variable can be included,
+//If used in apostrophe (' '), variable will be considered as string, no matter if $ is used
 
 /*
 $value = 25;
 
 $name = "ProgrammingKnowledge" ;
 
-echo "$value" ;
+echo "$value <br>" ;
 
-echo "<br> $name" ;
+echo "$name <br>" ;
 
-echo "<br> $value*4" ;
+echo "$value * 4 <br>" ;
 */
 
-/* Varijable imaju vise tipova, ovisno o podacima koje pohranjujemo u varijabli, npr
+/* There are different types of variables, depending which kind of data we are using
 
-$Variable = 25 ; Integer - cijeli broj, moze biti pozitivan ili negativan
-$Variable = 3.14; Float - decimalni broj, moze biti pozitivan ili negativan
-$Variable = "String"; String - varijabla nacinjena od niza znakova; varijabla je tekst koji se reproducira
-$Variable = true ; Boolean varijabla, moze sadrzavati true ili false
-$Variable = array (34, 15, 93, 66...) ; Array - sadrzi vise podataka u varijabli, funkcionira kao tablica u excellu
+Examples of variable types
+
+$Variable = 25 ; Integer - whole number, can be positive or negative
+$Variable = 3.14; Float - decimal number, can be positive or negative
+$Variable = "String"; String - represents data consisted of sign string, string usually means "word"
+$Variable = true ; Boolean variable, can have true or false statement
+$Variable = array (34, 15, 93, 66...) ; Array - consisted of more values in one variable
 */
 
-// Varijablama mozemo raditi i reference, odnosno mozemo se referirati na prethodnu varijablu, 
-// znaci da je sadrzaj varijable druga varijabla (promjena u jednoj varijabli mijenja i drugu varijablu)
+// Variables can be referred to other variable, so variable can contain other variable
 
 $foo = "Bob";
 $bar = &$foo ;

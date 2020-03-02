@@ -1,28 +1,28 @@
 <?php
 
-//Ukoliko zelimo da se nesto vise puta isprinta, koristimo while loop
-//Npr zelimo ponoviti "Opet i opet" 10 puta
+//If we want a string to be printed more times, we use while loops
+//Example: Print "Over and over again" ten times
 
-$counter=1;
+$counter = 1 ;
 
-while($counter<=10)
-{
-    echo 'Opet i opet ' .$counter. '<br>' ;
+while ($counter <= 10) {
+    echo 'Over and over again ' .$counter. '<br>' ;
     $counter++ ;
 }
 
-// Vrijednost $counter je jedan
-// While ukoliko je vrijednost nula, nece biti petlje jer je 0 u php zapravo false statement
-// Vrijednost countera unutar while iznosi <= od 10 jer u trenutku kad bude 11, loop prestaje
-// .$counter. unutar koda ispisuje koliko puta se ponavlja kod, tj koju vrijednost je $counter poprimio u loopu
-// $counter++ omogucuje da se vrijednost $counter u svakom iducem kodu poveca za svoju jedinicnu vrijednost, a to je 1
-// kod while loop funkcije prvo se provjerava uvjet, pa se zatim izvršava kod
-// do while loop funkcija prvo izvršava kod, pa zatim provjerava uvjet
+// Value of $counter is 1
+// If value of $counter is 0, while won't print anything, because 0 is considered as false statement
+// Value of counter inside while is less than 10, because when it becomes more than 10, printing stops
+// .$counter. inside code prints how many times statement has been printed (which value $counter has gained inside the loop)
+// $counter++ allows to become bigger in next repetition of the loop
+// $counter increases by it's value in every next row, and the value is 1
+// while loop first checks if statement is correct, then it executes it
+// do while loop is doing execution of code first, then it checks if it's correct
 
 /*
 do
 {
-    echo 'Opet i opet ' .$counter. '<br>' ;
+    echo 'Over and over again ' .$counter. '<br>' ;
 }
 while($counter<=0);
 */

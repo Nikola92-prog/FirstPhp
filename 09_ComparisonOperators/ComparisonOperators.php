@@ -9,16 +9,13 @@
 // <= Less or Equal
 // >= Greater of Equal
 
-$Number1 ='10' ;
+$Number1 = '10' ;
 
 $Number2 = 10 ;
 
-if($Number1 == $Number2)
-{
+if ($Number1 == $Number2) {
     echo 'Equal' ;
 }
-else
-{
+else {
     echo 'Not Equal' ;
 }
-

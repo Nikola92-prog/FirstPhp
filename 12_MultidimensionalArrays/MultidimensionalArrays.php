@@ -1,20 +1,20 @@
 <?php
 
-// Multidimensional array je zapravo koristenje arraya unutar arraya
+// Multidimensional array is in fact using array inside of an array
 
-//PRIMJER PROBLEMA; zelimo unijeti podatke za visine i tezine nekih osoba, kao u tablici
-//      IME     VISINA      TEZINA
-//      Marko   167         72
+//Example; you can use multidimensional array as a table in excell
+//      NAME    HEIGHT      Weight
+//      John    167         72
 //      Ivan    182         80
-//      Hrvoje  190         86
+//      Mark    190         86
 
-$students=array (array ('Name' => 'Marko', 
+$students=array (array ('Name' => 'John', 
                         'Height' => 167, 
                         'Weight' => 72),
                  array ('Name' => 'Ivan',
                         'Height' => 182,
                         'Weight' => 80),
-                 array ('Name' => 'Hrvoje',
+                 array ('Name' => 'Mark',
                         'Height' => 190,
                         'Weight' => 86));
 
@@ -22,4 +22,4 @@ echo $students [0] ['Name'] . ' ' ; echo $students [0] ['Height'] . ' ' ; echo $
 echo $students [1] ['Name'] . ' ' ; echo $students [1] ['Height'] . ' ' ; echo $students [1] ['Weight'] . '<br>' ;
 echo $students [2] ['Name'] . ' ' ; echo $students [2] ['Height'] . ' ' ; echo $students [2] ['Weight'] . '<br>' ;
 
-// Prvi broj je red, drugi je stupac
+// First square bracket is row, second is column

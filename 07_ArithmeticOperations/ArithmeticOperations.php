@@ -1,13 +1,13 @@
 <?php
 
 $number1 = 256 ;
-$number2 = 256 ;
+$number2 = 250 ;
 
 echo "Addition <br>" ;
 
 echo $number1 + $number2 . '<br>' ;
 
-echo "Subrtaction <br>" ;
+echo "Subtraction <br>" ;
 
 echo $number1 - $number2 . '<br>' ;
 
